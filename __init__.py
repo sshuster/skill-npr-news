@@ -35,7 +35,7 @@ from mycroft.util.time import now_local
 
 
 def image_path(filename):
-    return 'file://' + join(dirname(abspath(__file__)), 'images', filename)
+    return join(dirname(abspath(__file__)), 'images', filename)
 
 
 def tsf():
